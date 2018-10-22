@@ -12,7 +12,6 @@ const firestore = new Firestore({
   timestampsInSnapshots: true
 });
 
-
 // Create the SQS service object
 var sqs = new AWS.SQS({ apiVersion: '2012-11-05' });
 
